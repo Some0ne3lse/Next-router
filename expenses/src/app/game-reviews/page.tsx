@@ -1,13 +1,13 @@
 "use client";
+
 import GlobalHeader from "../components/Header";
-import AdminButton from "./components/AdminButton";
-import Expenses from "./components/Expenses";
+import GameReviews from "./GameReviews";
 
 export default function Home() {
   return (
-    <>
+    <div className="review-page">
       <GlobalHeader />
-      <Expenses />
-    </>
+      <GameReviews />
+    </div>
   );
 }
