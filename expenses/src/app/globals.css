@@ -33,8 +33,13 @@ button {
   height: 100%;
 }
 
+.all-header-buttons {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
 .header-buttons {
-  width: 10%;
+  width: 20%;
 }
 
 .page-header {
@@ -281,4 +286,66 @@ button {
   height: 40px;
   width: 40px;
   align-self: flex-start;
+}
+.entire-cv {
+  background-color: rgb(36, 36, 57);
+  margin: 0%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.cd-header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 3px solid rgb(147, 169, 205);
+}
+
+.cv-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  overflow: hidden;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.cv-name {
+  margin-bottom: 0px;
+}
+
+.cv-about-me {
+  padding-left: 15px;
+  margin-top: 10px;
+  font-size: larger;
+  font-weight: 100;
+}
+
+.cv-previous-jobs {
+  padding: 15px 30px;
+}
+
+.cv-individual-job {
+  margin: 50px auto;
+}
+
+.cv-title {
+  color: white;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+.cv-time-at-work {
+  margin: 0px;
+  padding: 5px;
+  color: rgb(182, 126, 251);
+  font-size: large;
+}
+
+.cv-job-description {
+  margin-top: 10px;
+  color: grey;
+  padding-left: 15px;
 }
